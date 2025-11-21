@@ -30,6 +30,7 @@ main section.sobre-nutrivitta div.text-content {
 main section.sobre-nutrivitta div.text-content h1 {
     font-family: 'Inter', sans-serif;
     font-size: 3vw;
+    font-weight: bold;
     color: green;
     line-height: 1.1;
     margin-bottom: 30px;
@@ -39,7 +40,7 @@ main section.sobre-nutrivitta div.text-content h1 {
 
 main section.sobre-nutrivitta div.text-content p {
     font-family: 'Inter', sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     color: #333;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -88,10 +89,11 @@ main section.nossa-missao div.header-missao h1 {
     font-size: 2.5vw;
     color: green;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 main section.nossa-missao div.header-missao p {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: #333;
     line-height: 1.6;
 }
@@ -138,14 +140,14 @@ main section.nossa-missao div.icon-circle i {
 }
 
 main section.nossa-missao div.card-missao h3 {
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     font-weight: 700;
     color: #333;
     margin: 0 0 10px 0;
 }
 
 main section.nossa-missao div.card-missao p {
-    font-size: 0.9vw;
+    font-size: 1.2vw;
     color: rgba(0, 128, 0, 0.7);
     line-height: 1.5;
     margin: 0;
@@ -182,11 +184,12 @@ main section.nossa-equipe div.header-equipe p {
 }
 
 .cola-titulo {
-    color: rgb(44, 102, 44);
+    color: rgb(4, 82, 4);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     margin-top: 30px;
     margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .colaboradores {
@@ -219,14 +222,15 @@ main section.nossa-equipe div.header-equipe p {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid rgba(84, 165, 84, 0.473);
+    border: 3px solid rgba(3, 63, 3, 0.473);
     margin-bottom: 10px;
 }
 
 .colaborador h2 {
-    font-size: 18px;
-    color: black;
+    font-size: 25px;
+    color: rgb(31, 75, 6);
     margin: 0;
+    font-weight: bold;
 }
 
 /*bgl pra aparecer as contribuicao ai */
@@ -237,7 +241,7 @@ main section.nossa-equipe div.header-equipe p {
     left: 50%;
     transform: translateX(-50%);
     width: 220px;
-    background-color:  #809671;
+    background-color:  #2e5017;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.12);
     padding: 10px;
@@ -246,8 +250,8 @@ main section.nossa-equipe div.header-equipe p {
 }
 .tooltip p {
     color: white;
-    font-size: 1.5rem;
-    font-family:'Inria Serif', serif;
+    font-size: 1.3rem;
+    
 }
 .tooltip img {
     width: 80px;
