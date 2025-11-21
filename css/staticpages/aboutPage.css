@@ -315,12 +315,12 @@ section.projetinho div.container h3 {
 }
 .funçãodoscrias li {
     margin-bottom: 12px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #333;
 }
 
 .funçãodoscrias li strong {
-    color: #526645;
+    color: #24470c;
     font-weight: bold;
 }
 .funçãodoscrias:hover {
@@ -335,8 +335,8 @@ section.projetinho div.container h3 {
 }
 .container h3{
     text-align: center;
-    color: #809671;
-    font-size: 1.8rem; 
+    color: #2d5f0c;
+    font-size: 2.5rem; 
     margin: 40px 0 20px;
     font-weight: bold;
 }
@@ -390,8 +390,9 @@ p {
 }
 
 .cards h4 {
-    font-size: 1.2em;
-    color: #809671;
+    font-size: 1.5rem;
+    color: #274b0f;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 10px;
     border-bottom: 2px solid #e9f5e9;
