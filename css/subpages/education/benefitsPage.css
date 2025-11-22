@@ -107,7 +107,7 @@ main section.banner {
 
 main section.banner h1 {
     font-family: 'inter';
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: green;
     display: flex;
     justify-content: center;
@@ -117,7 +117,8 @@ main section.banner h1 {
 }
 
 main section.banner p {
-    font-size: 1vw;
+    font-size: 1.6vw;
+    line-height: 37px;
     color: green;
     display: flex;
     justify-content: center;
@@ -136,7 +137,7 @@ main section.beneficios {
 
 main section.beneficios div h2 {
     font-family: 'inter';
-    font-size: 1.8vw;
+    font-size: 2.5vw;
     color: green;
     display: flex;
     justify-content: center;
@@ -146,7 +147,8 @@ main section.beneficios div h2 {
 
 main section.beneficios div p.p-um {
     font-family: 'inter';
-    font-size: 1vw;
+    font-size: 1.6vw;
+    line-height: 37px;
     color: green;
     display: flex;
     justify-content: center;
@@ -188,19 +190,21 @@ main section.beneficios div.container div.lista ul li h3 {
     opacity: 60%;
     margin: 0 0 5px 0;
     font-weight: bold;
+    font-size: 18px;
 }
 
 
 main section.beneficios div.container div.lista ul li i {
-    margin-right: 20px;
-    padding: 15px;
-    border-radius: 10px;
+    margin-right: 23px;
+    padding: 20px;
+    border-radius: 20px;
     background-color: rgba(0, 255, 0, 0.116);
 
 }
 
 main section.beneficios div.container div.lista ul li p {
     color: rgba(1, 150, 38, 0.781);
+    font-size: 18px;
 }
 
 main section.beneficios div.container div.lista ul {
@@ -234,11 +238,11 @@ main section.beneficios div.result ul {
 }
 
 main section.beneficios div.result h2 {
-    font-size: 30px;
+    font-size: 2.7vw;
 }
 
 main section.beneficios div.result h3 {
-    font-size: 29px;
+    font-size: 45px;
     margin: 0 0 10px 0;
 }
 
@@ -254,12 +258,13 @@ main section.pilares {
 
 main section.pilares div.title h2 {
     color: green;
-    font-size: 3vh;
+    font-weight: bold;
+    font-size: 2.4vw;
     margin: 10px;
 }
 
 main section.pilares div.title p {
-    font-size: 2vh;
+    font-size: 1.5vw;
     color: rgba(1, 136, 1, 0.658);
     width: 800px;
     margin: 20px;
@@ -282,9 +287,9 @@ main section.pilares div.title p {
 
 .cards ul li.card {
     border: solid 1px rgba(0, 199, 27, 0.116);
-    padding: 20px 30px;
+    padding: 30px 30px 70px;
 
-    width: 400px;
+    width: 350px;
     height: 300px;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -298,11 +303,14 @@ main section.pilares div.title p {
 .cards ul li h4 {
     margin: 0 0 5px 0;
     color: rgba(11, 129, 11, 0.74);
+    font-size: 16px;
 }
 
 .cards ul li ul li {
     list-style-type: disc;
     color: rgba(16, 170, 16, 0.74);
+    font-size: 16px;
+    line-height: 24px;
 
 
 }
@@ -324,24 +332,26 @@ main section.pilares div.title p {
 
 .cards ul li div.card-container div h3 {
     margin: 20px 0 20px 0;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .cards ul li div.card-container div i {
     display: inline-flex !important;
     justify-content: center;
     align-items: center;
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     box-sizing: border-box;
     background: rgba(2, 221, 2, 0.329);
-    font-size: 40px;
+    font-size: 50px;
     color: green;
-    border-radius: 40px;
+    border-radius: 50px;
 
 }
 
 .cards ul li p {
-    font-size: 14px;
+    font-size: 17px;
     margin: 20px 0 20px 0;
     color: rgba(16, 170, 16, 0.74);
 }
